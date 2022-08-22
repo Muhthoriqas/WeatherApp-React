@@ -1,3 +1,8 @@
+# Preview
+[Weather-Riq.webm](https://user-images.githubusercontent.com/72277295/185990190-fdfedab7-9402-4ff0-8b75-5f029d267f03.webm)
+
+## Weather Search Using API and ReactJS
+## API Source: https://openweathermap.org/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
