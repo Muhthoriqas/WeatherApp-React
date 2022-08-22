@@ -1,0 +1,21 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+
+  .heading {
+    padding: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    .light {
+      font-weight: 500;
+      color: #fff;
+    }
+    .blue-text {
+      color: #c7ede6;
+      text-align: center;
+    }
+  }
+}

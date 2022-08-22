@@ -1,0 +1,20 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.container .heading {
+  padding: 2rem;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.container .heading .light {
+  font-weight: 500;
+  color: #fff;
+}
+.container .heading .blue-text {
+  color: #c7ede6;
+  text-align: center;
+}/*# sourceMappingURL=headerStyles.css.map */
