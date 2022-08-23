@@ -1,3 +1,10 @@
+$primaryColor: #c7ede6;
+$secondaryColor: #242628;
+$thirdColor: #78a0cf;
+$black: #000;
+$backgroundColor: #eee;
+$text-shadow: 3px 3px rgba(50, 50, 70, 0.3);
+
 .app {
   background-image: url("./assets/wather-sun.jpg");
   background-size: cover;
@@ -26,7 +33,6 @@ main {
   .search-box {
     margin-top: 30px;
     width: 60%;
-    /* margin: 0 0 75px; */
     .search-bar {
       display: block;
       width: 100%;
@@ -35,21 +41,17 @@ main {
       background: none;
       border: none;
       outline: none;
-      background-color: #eee;
+      background-color: $backgroundColor;
       border-radius: 16px;
       margin-top: -25px;
-
       box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
-
-      /* color: #313131; */
       font-size: 20px;
-
       transition: 0.4s ease;
 
       &:focus {
         outline: none;
         border: none;
-        box-shadow: #78a0cf 0px 5px 15px;
+        box-shadow: $thirdColor 0px 5px 15px;
       }
     }
   }
@@ -66,8 +68,8 @@ main {
   padding: 20px 10px;
   margin: auto;
   box-shadow: rgb(85 85 85) 0px 3px 6px 0px;
-  background: #eee;
-  color: #000;
+  background: $backgroundColor;
+  color: $black;
   .weather-info {
     display: flex;
     width: 90%;
@@ -81,8 +83,8 @@ main {
         font-size: 32px;
         font-weight: 700;
         text-align: center;
-        text-shadow: 3px 3px rgba(50, 50, 70, 0.3);
-        color: #2b3035;
+        text-shadow: $text-shadow;
+        color: $secondaryColor;
       }
       .date {
         font-size: 20px;
@@ -93,13 +95,13 @@ main {
         position: relative;
         display: inline-block;
         margin: 20px auto;
-        background-color: #c7ede6;
+        background-color: $primaryColor;
         border-radius: 16px;
         padding: 15px 25px;
-        color: #242628;
+        color: $secondaryColor;
         font-size: 102px;
         font-weight: 900;
-        text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+        text-shadow: $text-shadow;
         text-align: center;
         box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
       }
